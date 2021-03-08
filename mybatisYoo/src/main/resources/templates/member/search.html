@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	  <div th:fragment="searchFragment">
+		</th:block>
+			<form th:action="@{/memberList}" method="get">
+				<select class="form-control" name="searchKey">
+					<option th:value="1">아이디 검색</option>
+					<option th:value="2">등급 검색</option>
+					<option th:value="3">이름 검색</option>
+					<option th:value="4">주소 검색</option>
+					<option th:value="5">날짜 검색</option>
+					<option th:value="6">이메일 검색</option>
+				</select>	  	
+				<input type="text" class="form-control" placeholder="검색어 입력" name="searchValue">
+				<button class="form-control btn btn-warning" type="submit">검색버튼</button>
+			</form>
+	  	</th:block>
+	  </div>
+</html>

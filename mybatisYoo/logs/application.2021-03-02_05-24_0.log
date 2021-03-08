@@ -1,0 +1,9 @@
+17:24:33.467 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:24:33.468 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:24:33.468 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:24:33.468 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:24:33.468 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+17:24:33.468 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addMember
+17:24:33.468 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:24:33.469 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:24:33.477 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER

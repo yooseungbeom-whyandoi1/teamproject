@@ -1,0 +1,32 @@
+14:05:07.032 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+14:05:07.037 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        null
+14:05:07.037 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        null
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: 192.168.123.45
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /login
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+14:05:07.039 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+14:05:07.133 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+14:05:13.265 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: 192.168.123.45
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /HNAP1/
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        null
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        null
+14:05:13.271 [http-nio-80-exec-5] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: 192.168.123.45
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /login
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+14:05:13.272 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+14:05:13.273 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER

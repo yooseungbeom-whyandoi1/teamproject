@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorate="@{layout/default}">
+	
+	<th:block layout:fragment="customTitle">
+		<title>회원목록조회</title>
+	</th:block>
+	
+	<th:block layout:fragment="customContents">
+		<div class="row">
+			<div class="col-sm-4">
+				<div th:include="member/search :: searchFragment"></div>
+			</div>
+		</div>
+		<table  class="table table-bordered table-warning">
+			<thead>
+				<tr>
+					<th>회원아이디 </th>
+					<th>회원비밀번호</th>
+					<th>회원이름  </th>
+					<th>회원등급번호  </th>
+					<th>회원등급이름  </th>
+					<th>회원주소  </th>
+					<th>회원이메일  </th>
+					<th>회원등록날짜</th>
+					<th>수정</th>
+					<th>삭제</th>
+				</tr>			
+			</thead>
+			<tbody>
+				<tr th:if="${#lists.size(memberList)} > 0" th:each="l, st:${memberList}">
+					<td th:text="${l.memberId}"></td>
+					<td th:text="${l.memberPw}"></td>
+					<td th:text="${l.memberName}"></td>
+					<td th:text="${l.memberLevel}"></td>
+					<td th:text="${l.memberLevelName}"></td>
+					<td th:text="${l.memberAddr}"></td>
+					<td th:text="${l.memberEmail}"></td>
+					<td th:text="${l.memberRegDate}"></td>
+					<td>
+						<!--/modifyMember?memberId=id001  +&memberPw=pw001 => + ,memberPw=${l.memberPw} -->
+						<a th:href="@{/modifyMember(memberId=${l.memberId})}">수정</a>
+					</td>
+					<td>
+						<a th:href="@{/removeMember(memberId=${l.memberId})}">삭제</a>		
+					</td>
+				</tr>
+				<tr th:unless="${#lists.size(memberList)} > 0">
+					<td colspan="11" style="text-align: center;">조회된 내용이 없습니다.</td>
+				</tr>
+			</tbody>
+		</table>
+	</th:block>
+
+</html>

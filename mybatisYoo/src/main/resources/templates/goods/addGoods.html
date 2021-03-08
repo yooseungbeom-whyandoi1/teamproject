@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="@{layout/default}">
+
+<th:block layout:fragment="customTitle">
+	<title>멤버등록</title>
+</th:block>
+
+<th:block layout:fragment="customContents">
+	<form th:action="@{/addGoods}" method="post">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				
+					<div class="form-group">
+						<label for="goodsName">상품명</label> 
+						<input type="text" class="form-control" name="goodsName" id="goodsName" placeholder="상품명 ">
+					</div>
+					<div class="form-group">
+						<label for="goodsPrice">상품가격</label> 
+						<input type="number" class="form-control" name="goodsPrice" id="goodsPrice"  placeholder="상품가격 ">
+					</div>
+					<div class="form-group">
+						<label for="goodsSellerId">판매자 목록</label> 
+						<input  class="form-control" th:if="${session.SLEVEL == '판매자'}" type="text" name="goodsSellerId" th:value="${session.SID}" readonly="readonly"/>
+						<select class="form-control" th:if="${session.SLEVEL == '관리자'}" name="goodsSellerId">
+							<option>::::판매자 선택::::</option>
+							<th:block th:if="${#lists.size(sellerList) > 0}" th:each="l : ${sellerList}">
+								<option th:value="${l.memberId}">[[${l.memberId}]]</option>
+							</th:block>
+						</select>
+					</div>
+						<button  type="submit" class=" btn btn-success btn-block">등록</button>
+			</div>
+		</div>
+
+	</form>
+
+</th:block>
+
+</html>

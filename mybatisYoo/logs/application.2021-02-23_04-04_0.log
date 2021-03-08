@@ -1,0 +1,2 @@
+16:04:35.607 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Starting MybatisApplication using Java 1.8.0_144 on DESKTOP-048HU3O with PID 4972 (D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo\target\classes started by ECS in D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo)
+16:04:35.616 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - No active profile set, falling back to default profiles: default

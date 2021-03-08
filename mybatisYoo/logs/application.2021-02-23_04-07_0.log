@@ -1,0 +1,17 @@
+16:07:03.562 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Starting MybatisApplication using Java 1.8.0_144 on DESKTOP-048HU3O with PID 4972 (D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo\target\classes started by ECS in D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo)
+16:07:03.562 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - No active profile set, falling back to default profiles: default
+16:07:03.802 [restartedMain] ERROR k.mybatis.service.MemberService - MemberService :::::: initialize()
+16:07:03.896 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Started MybatisApplication in 0.35 seconds (JVM running for 6178.906)
+16:07:23.897 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /goodsList
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:07:23.898 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:07:23.909 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+16:07:23.909 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+16:07:23.957 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER

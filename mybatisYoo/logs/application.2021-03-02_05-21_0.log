@@ -1,0 +1,18 @@
+17:21:00.084 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:21:00.085 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:21:00.085 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:21:00.085 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:21:00.085 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+17:21:00.085 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addMember
+17:21:00.085 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:21:00.086 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:21:00.095 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:21:02.176 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:21:02.176 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:21:02.176 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:21:02.176 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:21:02.176 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+17:21:02.176 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addMember
+17:21:02.177 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:21:02.177 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:21:02.187 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER

@@ -1,0 +1,102 @@
+16:10:34.187 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Starting MybatisApplication using Java 1.8.0_144 on DESKTOP-048HU3O with PID 4972 (D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo\target\classes started by ECS in D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo)
+16:10:34.187 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - No active profile set, falling back to default profiles: default
+16:10:34.482 [restartedMain] ERROR k.mybatis.service.MemberService - MemberService :::::: initialize()
+16:10:34.566 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Started MybatisApplication in 0.384 seconds (JVM running for 6389.575)
+16:10:34.603 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /goodsList
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - test ::::: false
+16:10:34.604 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:34.610 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:34.610 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:34.610 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:34.611 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addMember
+16:10:36.076 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:36.077 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+16:10:36.086 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:36.859 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:36.859 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:36.859 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /memberList
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:36.860 [http-nio-80-exec-6] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:36.865 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:36.865 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:36.865 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:36.865 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addGoods
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+16:10:37.667 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+16:10:37.675 [http-nio-80-exec-7] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:38.443 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:38.443 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:38.443 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:38.443 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /goodsList
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.LoginInterceptor - test ::::: false
+16:10:38.444 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:38.448 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:38.448 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:38.448 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:38.448 [http-nio-80-exec-5] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addGoods
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:40.611 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:40.612 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+16:10:40.612 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+16:10:40.620 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /goodsList
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - test ::::: false
+16:10:41.216 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+16:10:41.222 [http-nio-80-exec-9] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+16:10:41.222 [http-nio-80-exec-9] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id002
+16:10:41.222 [http-nio-80-exec-9] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        판매자
+16:10:41.222 [http-nio-80-exec-9] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END

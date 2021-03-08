@@ -1,0 +1,4 @@
+17:33:22.475 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Starting MybatisApplication using Java 1.8.0_144 on DESKTOP-048HU3O with PID 10500 (D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo\target\classes started by ECS in D:\yooseungbeom\38기한국스마트정보교육원\13_springboot\02_workspace\mybatisYoo)
+17:33:22.476 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - No active profile set, falling back to default profiles: default
+17:33:22.718 [restartedMain] ERROR k.mybatis.service.MemberService - MemberService :::::: initialize()
+17:33:22.796 [restartedMain] INFO  ksmart38.mybatis.MybatisApplication - Started MybatisApplication in 0.344 seconds (JVM running for 5478.819)

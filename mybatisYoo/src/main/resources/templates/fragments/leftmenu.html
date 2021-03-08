@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ 	<nav id="sidebar" class="sidebar" th:fragment="sidebarFragment">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="/">
+		        	  <span class="align-middle">MAIN HOME</span>
+		        </a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active" >
+						<a class="sidebar-link" href="login" th:unless="${session.SID} != null">
+			              	<i class="align-middle" data-feather="home"></i>
+			              	<span class="align-middle">로그인</span>
+			            </a>
+						<a class="sidebar-link" href="logout" th:if="${session.SID} != null">
+			            	  <i class="align-middle" data-feather="home"></i>
+			            	  <span class="align-middle">로그아웃</span>
+			            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="addMember">
+             				 <i class="align-middle" data-feather="user"></i>
+             				 <span class="align-middle">01. 회원등록</span>
+         			   </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="memberList">
+             				 <i class="align-middle" data-feather="user"></i> <span class="align-middle">02. 회원목록</span>
+          			  	</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="addGoods">
+            				<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">03. 상품등록</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="goodsList">
+			             	 <i class="align-middle" data-feather="book"></i> <span class="align-middle">04. 상품조회</span>
+			            </a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="loginHistory">
+			             	 <i class="align-middle" data-feather="user"></i> <span class= "align-middle">05. 로그인 이력</span>
+			            </a>
+					</li>
+
+					<!-- <li class="sidebar-header">
+						Tools & Components
+					</li> -->
+					<li class="sidebar-item">
+						<a data-target="#ui" data-toggle="collapse" class="sidebar-link collapsed">
+			          	    <i class="align-middle" data-feather="briefcase"></i> <span class="align-middle">UI Elements</span>
+			            </a>
+						<ul id="ui" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-alerts.html">		Alerts</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-buttons.html">	Buttons</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-cards.html">		Cards</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-general.html">	General</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-grid.html">		Grid</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-modals.html">		Modals</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-typography.html">	Typography</a></li>
+						</ul>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="icons-feather.html">
+			             	 <i class="align-middle" data-feather="coffee"></i> <span class="align-middle">Icons</span>
+			            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a data-target="#forms" data-toggle="collapse" class="sidebar-link collapsed">
+			              	<i class="align-middle" data-feather="check-circle"></i> <span class="align-middle">Forms</span>
+			            </a>
+						<ul id="forms" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-layouts.html">Form Layouts</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-basic-inputs.html">Basic Inputs</a></li>
+						</ul>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="tables-bootstrap.html">
+			             	 <i class="align-middle" data-feather="list"></i> <span class="align-middle">Tables</span>
+			            </a>
+					</li>
+
+					<li class="sidebar-header">
+						Plugins & Addons
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="charts-chartjs.html">
+			             	 <i class="align-middle" data-feather="bar-chart-2"></i> <span class="align-middle">Charts</span>
+			            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="maps-google.html">
+			             	 <i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
+			            </a>
+					</li>
+				</ul>
+
+<!-- 				<div class="sidebar-cta">
+					<div class="sidebar-cta-content">
+						<strong class="d-inline-block mb-2">Upgrade to Pro</strong>
+						<div class="mb-3 text-sm">
+							Are you looking for more components? Check out our premium version.
+						</div>
+						<a href="https://adminkit.io/pricing" target="_blank" class="btn btn-primary btn-block">Upgrade to Pro</a>
+					</div>
+				</div>
+ -->			</div>
+		</nav>
+</html>

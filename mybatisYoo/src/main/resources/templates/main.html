@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorate="@{layout/default}">
+	
+	<th:block layout:fragment="customTitle">
+		<title>메인화면</title>
+	</th:block>
+	
+	
+	<th:block layout:fragment="customContents">
+		thymeleaf layout 완성 <br/>
+		<h1>[[${session.SID}]]</h1>
+		<h1>[[${session.SLEVEL}]]</h1>
+	</th:block>
+
+</html>

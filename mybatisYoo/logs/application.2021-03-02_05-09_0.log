@@ -1,0 +1,83 @@
+17:09:08.044 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:08.045 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:08.045 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:08.046 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:08.046 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+17:09:08.046 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addMember
+17:09:08.046 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:08.048 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:08.064 [http-nio-80-exec-9] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: POST
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /ajax/idCheck
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id001
+17:09:09.579 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        관리자
+17:09:09.582 [http-nio-80-exec-8] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+17:09:09.582 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:09.582 [http-nio-80-exec-8] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: GET
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /addMember
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:41.342 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:41.352 [http-nio-80-exec-10] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:09:42.165 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:42.165 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:42.165 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:42.165 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:42.165 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: POST
+17:09:42.165 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /ajax/idCheck
+17:09:42.166 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:42.166 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+17:09:42.166 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id001
+17:09:42.166 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        관리자
+17:09:42.167 [http-nio-80-exec-3] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+17:09:42.167 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:42.167 [http-nio-80-exec-3] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:09:45.207 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: POST
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /ajax/idCheck
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id001
+17:09:45.208 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        관리자
+17:09:45.211 [http-nio-80-exec-1] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+17:09:45.211 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:45.211 [http-nio-80-exec-1] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:09:47.934 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: POST
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /ajax/idCheck
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id001
+17:09:47.935 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        관리자
+17:09:47.936 [http-nio-80-exec-2] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+17:09:47.936 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:47.936 [http-nio-80-exec-2] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
+17:09:49.457 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================START
+17:09:49.457 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================START
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - PORT          	::  :::::::::::::::: localhost
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - method	:::::::::::::::::::: 80
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - server name	  :::::::::: POST
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - URI		:::::::::::::::: /ajax/idCheck
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - ACCESS INFO====================================END
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================START
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.LoginInterceptor - sessionId         :::::::        id001
+17:09:49.458 [http-nio-80-exec-4] INFO  k.m.inteceptor.LoginInterceptor - sessionLevel      :::::::        관리자
+17:09:49.461 [http-nio-80-exec-4] INFO  k.m.inteceptor.LoginInterceptor - LoginInterceptor=================================END
+17:09:49.461 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================END
+17:09:49.461 [http-nio-80-exec-4] INFO  k.m.inteceptor.CommonInterceptor - CommonInterceptor==============================AFTER
